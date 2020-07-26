@@ -1,0 +1,58 @@
+form {
+      margin: 3% 8%;
+      background: #f5f5f5;
+      padding: 1%;
+}
+label {
+      font-weight: 500;
+}
+.form-row {
+      align-items: baseline;
+}
+select#formTitle {
+      width: 50%;
+      margin-left: 10%;
+}
+input#formFirstName,input#formLastName {
+      width: 70%;
+      margin-left: 5%;
+}
+select#formNationality,input#date,input#formMobilePhone,input#formPassportNo,input#formExpectedSalary {
+      width: 50%;
+      margin-left: 5%;
+}
+.form-check {
+      padding-left: 4.25rem !important;
+}
+button.btn.btn-primary {
+      float: right;
+      margin-right: 7%;
+}
+input[type="text"],.ant-picker{
+      display: block;
+      width: 100%;
+      height: calc(1.5em + .75rem + 2px);
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      width: 50%;
+      margin-left: 5% !important;
+}
+input[type="text"]:focus,.ant-picker:focus{
+      color: #495057;
+      background-color: #fff;
+      border-color: #80bdff;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+form#UserForm {
+      margin: 2% 5%;
+      padding: 1%;
+  }

@@ -1,0 +1,9 @@
+.ant-table-wrapper {
+    margin: 2% 5%;
+}
+.ant-modal{
+    width:80% !important;
+}
+button.ant-btn.ant-btn-dangerous {
+    margin-left: 5%;
+}
